@@ -9,10 +9,11 @@ namespace VasGreZolFullStack.Common.Models
         public int YearOut { get; set; }
         public int PowerLe {  get; set; }
         public int EngineSize { get; set; }
+        public string Color { get; set; }
         public bool HasId => Id != Guid.Empty;
         public override string ToString()
         {
-            return $"{Id} {Brand} {Name} ({YearOut}) / {EngineSize}ccm, {PowerLe}Hp";
+            return $"{Id} {Brand} {Name} ({YearOut}, {Color}) / {EngineSize}ccm, {PowerLe}Hp";
         }
     }
 }

@@ -15,6 +15,7 @@ namespace VasGreZolFullStack.Backend.Context
                     Brand = "Ford",
                     Name = "Mustang",
                     YearOut = 1967,
+                    Color = "bordó",
                     PowerLe = 322,
                     EngineSize = 3185
                 },
@@ -24,6 +25,7 @@ namespace VasGreZolFullStack.Backend.Context
                     Brand = "Ford",
                     Name = "Mustang GT",
                     YearOut = 2018,
+                    Color = "fekete",
                     PowerLe = 480,
                     EngineSize = 5492
                 },
@@ -33,6 +35,7 @@ namespace VasGreZolFullStack.Backend.Context
                     Brand = "Ford",
                     Name = "Gt",
                     YearOut = 2000,
+                    Color = "fehér/kék",
                     PowerLe = 550,
                     EngineSize = 4825
                 },
@@ -42,6 +45,7 @@ namespace VasGreZolFullStack.Backend.Context
                     Brand = "Alfa Romao",
                     Name = "Giulia Quadrifoglio",
                     YearOut = 2024,
+                    Color = "bordó",
                     PowerLe = 388,
                     EngineSize = 2810
                 },
@@ -51,6 +55,7 @@ namespace VasGreZolFullStack.Backend.Context
                     Brand = "Honda",
                     Name = "Civic Type R",
                     YearOut = 2006,
+                    Color = "fekete",
                     PowerLe = 263,
                     EngineSize = 2125
                 }
