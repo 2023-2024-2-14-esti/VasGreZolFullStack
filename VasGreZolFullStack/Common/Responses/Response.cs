@@ -1,6 +1,8 @@
 ﻿namespace VasGreZolFullStack.Common.Responses
 {
-    internal class Response
+    public class Response : ErrorStore
     {
+        public bool IsSuccess => !HasError;
+        public Response() : base() { }
     }
 }
