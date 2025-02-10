@@ -1,4 +1,4 @@
-﻿namespace VasGreZolFullStack.Common.Assemblers
+﻿namespace VasGreZolFullStack.Common.Assemblers.Base
 {
     public abstract class BaseAssembler<TModel, TDto>
     {

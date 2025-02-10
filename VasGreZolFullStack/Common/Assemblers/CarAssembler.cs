@@ -1,4 +1,5 @@
-﻿using VasGreZolFullStack.Common.Dtos;
+﻿using VasGreZolFullStack.Common.Assemblers.Base;
+using VasGreZolFullStack.Common.Dtos;
 using VasGreZolFullStack.Common.Models;
 using VasGreZolFullStack.Common.Transforms;
 
